@@ -38,8 +38,8 @@ const Experience: React.FC = () => {
       title: 'ICT Trainee',
       company: 'Kenya Forestry Research Institute (KEFRI)',
       location: 'Nairobi, Kenya',
-      period: '2020 - 2021',
-      type: 'Internship',
+      period: 'May 2023 - August 2023',
+      type: 'Industrial Attachment',
       description: 'Gained hands-on experience in enterprise IT systems, database management, and research data analysis while supporting the institutes digital transformation initiatives.',
       achievements: [
         'Assisted in digitizing research data and improving data accessibility',
