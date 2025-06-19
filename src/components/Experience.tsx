@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
       title: 'Freelance Full Stack Developer',
       company: 'Taransvar',
       location: 'Remote',
-      period: '2022 - Present',
+      period: 'August 2024 - Present',
       type: 'Freelance',
       description: 'Developing custom web applications and mobile solutions for various clients, specializing in React, React Native, and backend API development.',
       achievements: [
@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
       title: 'Volunteer IT Support Specialist',
       company: 'Wanawake Kwa Wanawake',
       location: 'Kenya',
-      period: '2021 - 2022',
+      period: 'April 2024 - August 2024',
       type: 'Volunteer',
       description: 'Provided comprehensive IT support and training to empower women in technology, focusing on digital literacy and technical skill development.',
       achievements: [
