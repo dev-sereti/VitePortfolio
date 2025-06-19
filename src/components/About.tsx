@@ -118,7 +118,7 @@ const About: React.FC = () => {
           className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {[
-            { number: '3+', label: 'Years Experience' },
+            { number: '2+', label: 'Years Experience' },
             { number: '15+', label: 'Projects Completed' },
             { number: '4', label: 'Certifications' },
             { number: '100%', label: 'Client Satisfaction' },

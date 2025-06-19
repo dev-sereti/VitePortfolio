@@ -68,8 +68,8 @@ const Footer: React.FC = () => {
           >
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-gray-300">
-              <p>📧 kelvin.sereti@example.com</p>
-              <p>📱 +254 700 000 000</p>
+              <p>📧 seretikelvin25@gmail.com</p>
+              <p>📱 +254 702 952 885</p>
               <p>📍 Nairobi, Kenya</p>
             </div>
           </motion.div>
