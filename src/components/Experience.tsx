@@ -10,29 +10,31 @@ const Experience: React.FC = () => {
       location: 'Remote',
       period: 'August 2024 - Present',
       type: 'Freelance',
-      description: 'Developing custom web applications and mobile solutions for various clients, specializing in React, React Native, and backend API development.',
+      description: 'Developing custom web applications, mobile solutions, and Salesforce features for various clients, specializing in React, React Native, backend API development, and Salesforce platform customization.',
       achievements: [
         'Built 10+ full-stack applications using modern technologies',
+        'Developed custom Salesforce solutions including Apex classes, Lightning Web Components, and automated Flows',
         'Implemented automated deployment pipelines reducing deployment time by 60%',
         'Collaborated with international clients across different time zones',
         'Maintained 98% client satisfaction rate'
       ],
-      technologies: ['React', 'React Native', 'FastAPI', 'Django', 'AWS', 'C#','Docker','Python','Bash','PHP']
-    },
+      technologies: ['React', 'React Native', 'FastAPI', 'Django', 'AWS', 'C#', 'Docker', 'Python', 'Bash', 'PHP', 'Salesforce', 'Apex', 'LWC', 'Visualforce']
+    },    
     {
-      title: 'Volunteer IT Support Specialist',
+      title: 'Volunteer Fullstack Developer & IT Support Specialist',
       company: 'Wanawake Kwa Wanawake',
       location: 'Kenya',
       period: 'April 2024 - August 2024',
       type: 'Volunteer',
-      description: 'Provided comprehensive IT support and training to empower women in technology, focusing on digital literacy and technical skill development.',
+      description: 'Contributed to fullstack web app development and provided comprehensive IT support and training to empower women in technology, focusing on digital literacy and technical skill development.',
       achievements: [
         'Trained 50+ women in basic computer skills and digital literacy',
         'Set up and maintained IT infrastructure for the organization',
-        'Developed training materials and conducted workshops',
-        'Reduced technical issues by 70% through proactive maintenance'
+        'Developed and deployed web applications to support organizational needs',
+        'Created training materials and conducted workshops on tech tools and systems',
+        'Reduced technical issues by 70% through proactive maintenance and support'
       ],
-      technologies: ['Windows', 'Linux', 'Network Administration', 'Training', 'Support']
+      technologies: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 'Windows', 'Linux', 'Network Administration', 'Training', 'Support']
     },
     {
       title: 'ICT Trainee',
@@ -47,7 +49,7 @@ const Experience: React.FC = () => {
         'Developed automated scripts for data processing tasks',
         'Contributed to the institutes digital transformation strategy'
       ],
-      technologies: ['Database Management', 'Data Analysis', 'Network Support', 'Python', 'Excel']
+      technologies: ['Database Management', 'Data Analysis', 'Network Support','HTML','CSS','JavaScript','PHP','Python', 'Excel']
     }
   ];
 
