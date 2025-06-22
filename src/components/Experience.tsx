@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
         'Collaborated with international clients across different time zones',
         'Maintained 98% client satisfaction rate'
       ],
-      technologies: ['React', 'React Native', 'FastAPI', 'Django', 'AWS', 'Docker']
+      technologies: ['React', 'React Native', 'FastAPI', 'Django', 'AWS', 'C#','Docker','Python','Bash','PHP']
     },
     {
       title: 'Volunteer IT Support Specialist',
