@@ -12,7 +12,7 @@ const Experience: React.FC = () => {
       type: 'Freelance',
       description: 'Developing custom web applications, mobile solutions, and Salesforce features for various clients, specializing in React, React Native, backend API development, and Salesforce platform customization.',
       achievements: [
-        'Built 10+ full-stack applications using modern technologies',
+        'Built full-stack applications using modern technologies',
         'Developed custom Salesforce solutions including Apex classes, Lightning Web Components, and automated Flows',
         'Implemented automated deployment pipelines reducing deployment time by 60%',
         'Collaborated with international clients across different time zones',
