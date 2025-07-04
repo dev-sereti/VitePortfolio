@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Django REST', 'PostgreSQL', 'WebSocket'],
       category: 'fullstack',
-      github: '#',
+      github: 'https://github.com/dev-sereti/TaskFlow--Project-Manager',
       demo: '#',
       icon: Server
     },
