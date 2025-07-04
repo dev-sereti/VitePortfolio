@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['FastAPI', 'Redis', 'Python', 'Docker'],
       category: 'fullstack',
-      github: '#',
+      github: 'https://github.com/dev-sereti/taransvar',
       demo: '#',
       icon: Shield
     },
