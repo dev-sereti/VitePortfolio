@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
       technologies: ['React', 'Django REST', 'PostgreSQL', 'WebSocket'],
       category: 'fullstack',
       github: 'https://github.com/dev-sereti/TaskFlow--Project-Manager',
-      demo: '#',
+      demo: 'https://task-flow-manager.netlify.app/',
       icon: Server
     },
     {
