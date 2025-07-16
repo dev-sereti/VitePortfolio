@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -16,21 +17,20 @@ function App() {
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
       setDarkMode(true);
       document.documentElement.classList.add('dark');
     }
   }, []);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    if (!darkMode) {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
+    const isDark = !darkMode;
+    setDarkMode(isDark);
+
+    document.documentElement.classList.toggle('dark', isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
   };
 
   return (
@@ -38,25 +38,28 @@ function App() {
       <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark' : ''}`}>
         <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-          
+
           <Routes>
-            <Route path="/" element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                <Hero />
-                <About />
-                <Skills />
-                <Projects />
-                <Experience />
-                <Certifications />
-                <Contact />
-              </motion.div>
-            } />
+            <Route
+              path="/"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <Hero />
+                  <About />
+                  <Skills />
+                  <Projects />
+                  <Experience />
+                  <Certifications />
+                  <Contact />
+                </motion.div>
+              }
+            />
           </Routes>
-          
+
           <Footer />
         </div>
       </div>
