@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
             >
               {[
                 { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/dev-sereti/', label: 'LinkedIn' },
                 { icon: Mail, href: 'mailto:seretikelvin25@gmail.com', label: 'Email' },
                 { icon: Phone, href: 'tel:+254792323000', label: 'Phone' },
               ].map(({ icon: Icon, href, label }) => (
