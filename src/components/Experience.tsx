@@ -4,22 +4,27 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const experiences = [
-    {
-      title: 'Full Stack Developer',
-      company: 'Taransvar',
-      location: 'Remote',
-      period: 'August 2024 - Present',
-      type: 'Freelance',
-      description: 'Developing custom web applications, mobile solutions, and Salesforce features for various clients, specializing in React, React Native, backend API development, and Salesforce platform customization.',
-      achievements: [
-        'Built full-stack applications using modern technologies',
-        'Developed custom Salesforce solutions including Apex classes, Lightning Web Components, and automated Flows',
-        'Implemented automated deployment pipelines reducing deployment time by 60%',
-        'Collaborated with international clients across different time zones',
-        'Maintained 98% client satisfaction rate'
-      ],
-      technologies: ['React', 'React Native', 'FastAPI', 'Django', 'AWS', 'C#', 'Docker', 'Python', 'Bash', 'PHP', 'Salesforce', 'Apex', 'LWC', 'Visualforce']
-    },    
+ {
+  title: 'Full Stack & Mobile Developer',
+  company: 'Taransvar',
+  location: 'Remote',
+  period: 'August 2024 – May 2025',
+  type: 'Freelance',
+  description: 'Co-developed a Kotlin-based Android application and contributed to full-stack development for custom firewall systems and Salesforce platforms. Specialized in Jetpack Compose, RESTful API integration, and cross-functional collaboration to deliver secure and scalable software solutions.',
+  achievements: [
+    'Developed a Kotlin Android app using Jetpack Compose to configure custom firewall systems, reducing manual setup time by 50%',
+    'Designed reusable and modular Compose UI components, enhancing maintainability and consistency',
+    'Integrated RESTful APIs for real-time firewall rule updates, command execution, and feedback mechanisms',
+    'Improved app performance by 40% through effective state management and caching strategies',
+    'Streamlined deployment using Git and CI/CD pipelines, improving release stability',
+    'Collaborated in Agile Scrum teams with backend engineers and UI/UX designers'
+  ],
+  technologies: [
+    'Kotlin', 'Jetpack Compose', 'Android', 'React', 'React Native', 'FastAPI', 'Django', 'AWS',
+    'C#', 'Docker', 'Python', 'Bash', 'PHP', 'Salesforce', 'Apex', 'LWC', 'Visualforce'
+  ]
+ },
+   
     {
       title: 'Volunteer Fullstack Developer & IT Support Specialist',
       company: 'Wanawake Kwa Wanawake',
