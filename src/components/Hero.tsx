@@ -116,7 +116,7 @@ const Hero: React.FC = () => {
               className="flex gap-6 justify-center lg:justify-start"
             >
               {[
-                { icon: Github, href: 'https://github.com/dev-sereti', label: 'GitHub' },
+                { icon: Github, href: '', label: 'GitHub' },
                 { icon: Linkedin, href: 'https://www.linkedin.com/in/dev-sereti/', label: 'LinkedIn' },
                 { icon: Mail, href: 'mailto:seretikelvin25@gmail.com', label: 'Email' },
                 { icon: Phone, href: 'tel:+254792323000', label: 'Phone' },
@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
             >
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl border-8 border-white dark:border-gray-700">
                 <img
-                  src="/profile.jpeg"
+                  src="/image.jpeg"
                   alt="Kelvin Sereti"
                   className="w-full h-full object-cover"
                 />
