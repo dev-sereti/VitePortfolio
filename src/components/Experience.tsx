@@ -5,7 +5,7 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Freelance Full Stack Developer',
+      title: 'Full Stack Developer',
       company: 'Taransvar',
       location: 'Remote',
       period: 'August 2024 - Present',
