@@ -119,7 +119,7 @@ const Hero: React.FC = () => {
                 { icon: Github, href: '#', label: 'GitHub' },
                 { icon: Linkedin, href: '#', label: 'LinkedIn' },
                 { icon: Mail, href: 'mailto:seretikelvin25@gmail.com', label: 'Email' },
-                { icon: Phone, href: 'tel:+254700000000', label: 'Phone' },
+                { icon: Phone, href: 'tel:+254792323000', label: 'Phone' },
               ].map(({ icon: Icon, href, label }) => (
                 <motion.a
                   key={label}
