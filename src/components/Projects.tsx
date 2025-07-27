@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'Shell', 'Automation', 'Linux'],
       category: 'automation',
-      github: '#',
+      github: 'https://github.com/dev-sereti/support-toolkit',
       demo: '#',
       icon: Server
     },
