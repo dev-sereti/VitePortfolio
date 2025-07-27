@@ -16,7 +16,7 @@ const Skills: React.FC = () => {
     {
       title: 'Languages',
       icon: Code,
-      skills: ['JavaScript', 'Python', 'Go (Basic)', 'Shell', 'HTML5', 'CSS3'],
+      skills: ['JavaScript', 'Python', 'Go (Basic)', 'Shell', 'HTML5', 'CSS3','Java',],
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -28,7 +28,7 @@ const Skills: React.FC = () => {
     {
       title: 'Backend & APIs',
       icon: Server,
-      skills: ['FastAPI', 'Django REST', 'Redis', 'RabbitMQ', 'RESTful APIs'],
+      skills: ['FastAPI', 'Django REST', 'Redis','Firebase','RabbitMQ', 'RESTful APIs'],
       color: 'from-purple-500 to-pink-500'
     },
     {
