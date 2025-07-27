@@ -16,13 +16,13 @@ const Skills: React.FC = () => {
     {
       title: 'Languages',
       icon: Code,
-      skills: ['JavaScript', 'Python', 'Go (Basic)', 'Shell', 'HTML5', 'CSS3','Java',],
+      skills: ['JavaScript', 'Python', 'Go (Basic)', 'Shell', 'HTML5', 'CSS3','Java','Kotlin'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       title: 'Frontend',
       icon: Monitor,
-      skills: ['React', 'React Native', 'Tailwind CSS', 'Firebase', 'Responsive Design'],
+      skills: ['React', 'React Native', 'Tailwind CSS', 'Firebase', 'Responsive Design','Jetpack Compose'],
       color: 'from-green-500 to-emerald-500'
     },
     {
