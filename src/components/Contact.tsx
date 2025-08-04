@@ -43,8 +43,8 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+254 702 952 885',
-      href: 'tel:+254702952885'
+      value: '+254 792 323 000',
+      href: 'tel:+254792323000'
     },
     {
       icon: MapPin,
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      href: 'https://wa.me/254702952885',
+      href: 'https://wa.me/254792323000',
       color: 'hover:text-green-600'
     }
   ];

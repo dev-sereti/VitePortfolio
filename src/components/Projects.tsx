@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Offline E-learning App',
+      title: 'E-learning App',
       description: 'React Native mobile application with Firebase backend, enabling offline learning capabilities for students in remote areas.',
       image: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React Native', 'Firebase', 'JavaScript', 'Mobile'],
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Django REST', 'PostgreSQL', 'WebSocket'],
       category: 'fullstack',
-      github: 'https://github.com/dev-sereti/TaskFlow--Project-Manager',
+      github: 'https://github.com/dev-sereti/TaskFlow-Project-Manager',
       demo: 'https://task-flow-manager.netlify.app/',
       icon: Server
     },
@@ -223,7 +223,7 @@ const Projects: React.FC = () => {
             Interested in seeing more of my work?
           </p>
           <motion.a
-            href="#"
+            href="https://github.com/dev-sereti"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
