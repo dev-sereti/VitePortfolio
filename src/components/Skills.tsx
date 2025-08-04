@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
     {
       title: 'DevOps & Tools',
       icon: Settings,
-      skills: ['Docker', 'Git', 'Jenkins (Basic)', 'CI/CD', 'Linux'],
+      skills: ['Docker', 'Git', 'Jenkins', 'CI/CD', 'Linux'],
       color: 'from-orange-500 to-red-500'
     },
     {
