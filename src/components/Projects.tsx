@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'Docker', 'Grafana', 'InfluxDB'],
       category: 'automation',
-      github: '#',
+      github: 'https://github.com/dev-sereti/NetPulse',
       demo: '#',
       icon: Shield
     },
